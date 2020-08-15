@@ -2,8 +2,44 @@
 <html>
     <head>
         <title>VCNPO</title>
+        <link rel="stylesheet" href="CSS/donate.css">
+        <script>
+            function gamer(){
+                prompt("Card Number");
+                prompt("Expiration Date");
+                prompt("CVC");
+                prompt("dollar amount");
+                alert("Thank you for the donation")
+            }
+        </script>
     </head>
-<body>
-    <header>Home Page</header>
+<body class="grid-container">
+    <header class="mp">
+        <img src="Images/logo.jpg">
+        <h1>VCNPO - Donate Page</h1>
+    </header>
+    <nav class="navigation">
+        <a href="About.html">About</a>
+        <a href="Service.html">Service</a>
+        <a href="Event.html">Event</a>
+        <a href="Donate.html">Donate</a>
+    </nav>
+    <div class="no"></div>
+    <div class="ok"></div>
+    <div class="words">
+        <p>
+            Donate to us today! 100% of your donations will go to making clothes for the homeless so donation are very appreciated. 
+        </p>
+        <button onclick="gamer()">Donate</button>
+    </div>
+    <footer class="foot">
+        <h3>Company</h3>
+        <ul>
+            <li>Name: VCNPO</li>
+            <Li>Number: <a herf="#">555-5555-5555</a></Li>
+            <li>Email: <a href="#">VNCPOMail@gmail.com</a></li>
+            <li>Address: In your head</li>
+        </ul>
+    </footer>
 </body>
 </html>
