@@ -1,0 +1,367 @@
+@media only screen and (max-width: 600px){
+    .grid-container{
+        display: grid;
+        grid-template-rows: 25% 6% auto 20%;
+        grid-template-columns: 25% 25% 25% 25%;
+        margin:0px;
+    }
+    .mp{
+        grid-column-start:2;
+        grid-column-end: 4;
+        grid-row-start: 1;
+        grid-row-end: 2;
+    }
+    .mp img{
+        z-index: 4;
+        width: 100%;
+        padding: 10px;
+    }
+    .mp h1{
+        text-align: center;
+        z-index: 2;
+        margin-top: -70px;
+        color: blue;
+        font-size: 20px;
+        position: relative;
+        
+            
+    }
+    .navigation{
+        grid-column-start:1;
+        grid-column-end: 5;
+        grid-row-start: 2;
+        grid-row-end: 3;
+        text-align: center;
+        background-color: mediumblue;
+        font-size: 10px;
+    }
+    .navigation a{
+        margin: 5px;
+        font-size: 20px;
+        text-decoration: none;
+        color: yellow;
+        padding-bottom: 50px;
+    }
+    .navigation a:hover{
+        color: khaki;
+    }
+    .no{
+        grid-column-start:1;
+        grid-column-end: 5;
+        grid-row-start: 1;
+        grid-row-end: 2;
+        background-image: url(../Images/back.jpg);
+        z-index: -1;
+    }
+    .ok{
+        grid-column-start:1;
+        grid-column-end: 5;
+        grid-row-start: 3;
+        grid-row-end: 4;
+        background-image: url(../Images/back.jpg);
+    }
+    .words{
+        z-index: 1;
+        grid-column-start:2;
+        grid-column-end: 4;
+        grid-row-start: 3;
+        grid-row-end: 4;
+        font-size: 10px;
+        border:10px solid red;
+        background-color: red;
+        box-shadow: -2px 5px 5px 7px #595959;
+        margin: 15px;
+    }
+    .foot{
+        grid-column-start:1;
+        grid-column-end: 5;
+        grid-row-start: 4;
+        grid-row-end: 5;
+        text-align: center;
+        color:yellow;
+        background-color: mediumblue;
+        font-size: 10px;
+    }
+    .foot ul li{
+        list-style-type: none;
+    }
+    .foot ul li a{
+        text-decoration-color: yellow;
+        color: yellow;
+    }
+}
+@media only screen and (min-width: 601px) and (max-width: 800px){
+    .grid-container{
+        display: grid;
+        grid-template-rows: 23% 6% auto 13%;
+        grid-template-columns: 25% 25% 25% 25%;
+        margin:0px;
+    }
+    .mp{
+        grid-column-start:2;
+        grid-column-end: 4;
+        grid-row-start: 1;
+        grid-row-end: 2;
+    }
+    .mp img{
+        z-index: 4;
+        width: 100%;
+        padding: 10px;
+    }
+    .mp h1{
+        text-align: center;
+        z-index: 2;
+        margin-top: -200px;
+        color: blue;
+        font-size: 100px;
+        position: relative;
+        
+            
+    }
+    .navigation{
+        grid-column-start:1;
+        grid-column-end: 5;
+        grid-row-start: 2;
+        grid-row-end: 3;
+        text-align: center;
+        background-color: mediumblue;
+    }
+    .navigation a{
+        margin: 20px;
+        font-size: 50px;
+        text-decoration: none;
+        color: yellow;
+        padding-bottom: 50px;
+    }
+    .navigation a:hover{
+        color: khaki;
+    }
+    .no{
+        grid-column-start:1;
+        grid-column-end: 5;
+        grid-row-start: 1;
+        grid-row-end: 2;
+        background-image: url(../Images/back.jpg);
+        z-index: -1;
+    }
+    .ok{
+        grid-column-start:1;
+        grid-column-end: 5;
+        grid-row-start: 3;
+        grid-row-end: 4;
+        background-image: url(../Images/back.jpg);
+    }
+    .words{
+        z-index: 1;
+        grid-column-start:2;
+        grid-column-end: 4;
+        grid-row-start: 3;
+        grid-row-end: 4;
+        font-size: 30px;
+        border:10px solid red;
+        background-color: red;
+        box-shadow: -2px 5px 5px 7px #595959;
+        margin: 15px;
+    }
+    .foot{
+        grid-column-start:1;
+        grid-column-end: 5;
+        grid-row-start: 4;
+        grid-row-end: 5;
+        text-align: center;
+        color:yellow;
+        background-color: mediumblue;
+    }
+    .foot ul li{
+        list-style-type: none;
+    }
+    .foot ul li a{
+        text-decoration-color: yellow;
+        color: yellow;
+    }
+}
+@media only screen and (min-width: 801px) and (max-width: 1200px){
+    .grid-container{
+        display: grid;
+        grid-template-rows: 33% 6% auto 15%;
+        grid-template-columns: 25% 25% 25% 25%;
+        margin:0px;
+    }
+    .mp{
+        grid-column-start:2;
+        grid-column-end: 4;
+        grid-row-start: 1;
+        grid-row-end: 2;
+    }
+    .mp img{
+        z-index: 4;
+        width: 100%;
+        padding: 10px;
+    }
+    .mp h1{
+        text-align: center;
+        z-index: 2;
+        margin-top: -200px;
+        color: blue;
+        font-size: 100px;
+        position: relative;
+        
+            
+    }
+    .navigation{
+        grid-column-start:1;
+        grid-column-end: 5;
+        grid-row-start: 2;
+        grid-row-end: 3;
+        text-align: center;
+        background-color: mediumblue;
+    }
+    .navigation a{
+        margin: 50px;
+        font-size: 50px;
+        text-decoration: none;
+        color: yellow;
+        padding-bottom: 50px;
+    }
+    .navigation a:hover{
+        color: khaki;
+    }
+    .no{
+        grid-column-start:1;
+        grid-column-end: 5;
+        grid-row-start: 1;
+        grid-row-end: 2;
+        background-image: url(../Images/back.jpg);
+        z-index: -1;
+    }
+    .ok{
+        grid-column-start:1;
+        grid-column-end: 5;
+        grid-row-start: 3;
+        grid-row-end: 4;
+        background-image: url(../Images/back.jpg);
+    }
+    .words{
+        z-index: 1;
+        grid-column-start:2;
+        grid-column-end: 4;
+        grid-row-start: 3;
+        grid-row-end: 4;
+        font-size: 30px;
+        border:10px solid red;
+        background-color: red;
+        box-shadow: -2px 5px 5px 7px #595959;
+        margin: 15px;
+    }
+    .foot{
+        grid-column-start:1;
+        grid-column-end: 5;
+        grid-row-start: 4;
+        grid-row-end: 5;
+        text-align: center;
+        color:yellow;
+        background-color: mediumblue;
+    }
+    .foot ul li{
+        list-style-type: none;
+    }
+    .foot ul li a{
+        text-decoration-color: yellow;
+        color: yellow;
+    }
+}
+@media only screen and (min-width: 1200px){
+    .grid-container{
+        display: grid;
+        grid-template-rows: 57% 10% auto 20%;
+        grid-template-columns: 25% 25% 25% 25%;
+        margin:0px;
+    }
+    .mp{
+        grid-column-start:2;
+        grid-column-end: 4;
+        grid-row-start: 1;
+        grid-row-end: 2;
+        /*background-image: url("../Images/logo.jpg");
+        background-repeat: cover;
+        background-attachment: fixed;
+        background-size: 100%;
+        /*background-position: center;*/
+    }
+    .mp img{
+        z-index: 4;
+        width: 100%;
+        padding: 10px;
+    }
+    .mp h1{
+        text-align: center;
+        z-index: 2;
+        margin-top: -300px;
+        color: blue;
+        font-size: 100px;
+        position: relative;
+        
+            
+    }
+    .navigation{
+        grid-column-start:1;
+        grid-column-end: 5;
+        grid-row-start: 2;
+        grid-row-end: 3;
+        text-align: center;
+        background-color: mediumblue;
+    }
+    .navigation a{
+        margin: 70px;
+        font-size: 50px;
+        text-decoration: none;
+        color: yellow;
+        padding-bottom: 50px;
+    }
+    .navigation a:hover{
+        color: khaki;
+    }
+    .no{
+        grid-column-start:1;
+        grid-column-end: 5;
+        grid-row-start: 1;
+        grid-row-end: 2;
+        background-image: url(../Images/back.jpg);
+        z-index: -1;
+    }
+    .ok{
+        grid-column-start:1;
+        grid-column-end: 5;
+        grid-row-start: 3;
+        grid-row-end: 4;
+        background-image: url(../Images/back.jpg);
+    }
+    .words{
+        z-index: 1;
+        grid-column-start:2;
+        grid-column-end: 4;
+        grid-row-start: 3;
+        grid-row-end: 4;
+        font-size: 30px;
+        border:10px solid red;
+        background-color: red;
+        box-shadow: -2px 5px 5px 7px #595959;
+        margin: 15px;
+    }
+    .foot{
+        grid-column-start:1;
+        grid-column-end: 5;
+        grid-row-start: 4;
+        grid-row-end: 5;
+        text-align: center;
+        color:yellow;
+        background-color: mediumblue;
+    }
+    .foot ul li{
+        list-style-type: none;
+    }
+    .foot ul li a{
+        text-decoration-color: yellow;
+        color: yellow;
+    }
+}
